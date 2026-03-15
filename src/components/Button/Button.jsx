@@ -1,5 +1,8 @@
-export default function Button({action}){
-    return(
-        <button onClick={action}>Buy New Ticket</button>
-    )
+export default function Button({ action }) {
+  return (
+    <div>
+      <button onClick={action}>{text}</button>
+      
+    </div>
+  )
 }
